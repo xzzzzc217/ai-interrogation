@@ -1,0 +1,20 @@
+{
+  "name": "ai-interrogation",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "《盘问 / The Interrogation》— an AI-native detective game where you interrogate LLM-driven suspects, break their lies with evidence, and name the killer.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 4173",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "phaser": "^3.80.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5",
+    "vite": "^4.5.3"
+  }
+}

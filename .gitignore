@@ -1,0 +1,21 @@
+# dependencies
+node_modules/
+
+# build output
+dist/
+dist-ssr/
+
+# local env / secrets — API keys live ONLY in the browser's localStorage, never here
+.env
+.env.*
+*.local
+
+# editor / OS / local tooling
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.claude/
+.DS_Store
+Thumbs.db
+*.log
+npm-debug.log*
